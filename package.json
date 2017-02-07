@@ -1,7 +1,7 @@
 {
   "name": "react-mobx-firebase-boilerplate",
   "version": "1.0.0",
-  "description": "Boilerplate for React + MobX + Firebase projects with JSX, ES6 compilation and hot code reloading",
+  "description": "Bruno Portela's personal/professional web page.",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src"
@@ -14,7 +14,7 @@
     "firebase",
     "sidebar"
   ],
-  "author": "Ming Huang",
+  "author": "Bruno Portela",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.9.1",
