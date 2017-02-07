@@ -5,7 +5,7 @@ module.exports = {
   devtool: 'eval',
   entry: [
     'react-hot-loader/patch',
-    'webpack-dev-server/client?http://localhost:3000',
+    'webpack-dev-server/client?http://http://191.252.102.169:3000',
     'webpack/hot/only-dev-server',
     './src/js/client'
   ],
@@ -30,3 +30,6 @@ module.exports = {
     ]
   }
 };
+
+
+
