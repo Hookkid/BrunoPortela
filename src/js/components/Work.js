@@ -5,7 +5,7 @@ export default class Work extends React.Component {
     const { title, clientName, roles, technologies, imageName } = this.props;
 
     return (
-       <div className="col-md-4 col-sm-4 col-xs-12 profile_details">
+       <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 profile_details">
         <div className="well profile_view clearfix">
           <div className="col-sm-12">
            <h2>{title}</h2>
