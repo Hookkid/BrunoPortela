@@ -180,7 +180,6 @@ make it thinner, then set it to again wrap around the entire parent element.
 p.spill{
 	font-size: 22px;
   letter-spacing: -0.02em;
-  padding: 0;
 }
 
 .logoWall{
@@ -291,4 +290,36 @@ p.spill{
 .btn-primary:active,.btn-primary:focus {
   background-color: #b68c13 !important;
   border-color: #d8a101 !important;
+}
+
+.well{
+  background-color: rgba(255,255,255,0.2);
+}
+
+
+.workPage .page{
+  margin: 0 !important;
+}
+
+
+.sldr {
+    max-width: 825px;
+    margin: 0 auto;
+    overflow: visible;
+    position: relative;
+    clear: both;
+    display: block;
+}
+
+.sldr > ul.animate {
+    -webkit-transition: margin 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+       -moz-transition: margin 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+         -o-transition: margin 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+            transition: margin 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); /* ease-in-out */    
+}
+
+.sldr > ul > li {
+    float: left;
+    display: block;
+    width: 825px;
 }
