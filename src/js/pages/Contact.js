@@ -70,6 +70,7 @@ export default class Contact extends React.Component {
 
                                             <div className="col-md-12">
                                                 <button type="submit" className="btn btn-warning pull-right" onClick={this.sendEmail}>Send <span className="glyphicon glyphicon-send"></span></button>
+                                                <br/>
                                             </div>
                                         </div>
 

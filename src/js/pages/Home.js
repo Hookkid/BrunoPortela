@@ -27,6 +27,7 @@ export default class Home extends React.Component {
                     <a href="https://www.linkedin.com/in/bruno-portela-83508a138" target="_blank"><img src="/img/svg/LinkedIn.png" alt="My LinkedIn Account" height="42px" className="marginLeft12" /></a>
                   </div>  
                 </div>
+                <br/>
               </div>
             
         </div></div></div>
