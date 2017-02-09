@@ -42,8 +42,10 @@ const SimpleSlider = React.createClass({
 
           <div className="row">
             <div className="col-xs-12 col-sm-7 col-md-7">
-              <h3 className="spill"><b>The brief:</b> Create a system that allows the import/export company to track and manage  the thousands of invoice they handle at any given time allowing their staff to update and attach relevant information as the import/export workflow proceeds.</h3>
-            <p className="spill"><b>The solution:</b> I developed a One Page App that could create, filter or sort the invoice and all of their inherited data (that included scanned PDF's) in real time. Relevant information was constantly fed to management and the final customer.</p>
+            <h3>The brief:</h3>
+            <p className="spill">Create a system that allows the import/export company to track and manage the thousands of invoices they handle at any given time allowing their staff to update and attach relevant information as the import/export workflow proceeds.</p>
+            <h3>The solution:</h3>
+            <p className="spill">I developed a One Page App that could create, filter or sort the invoice and all of their inherited data (that included scanned PDF's) in real time. Relevant information was simultaneously fed to management and the final customer.</p>
             <p className="spill">Database was MSSQL while server side code was C#.NET. Good old javascript and jQuery were the choice for handling UI and fetching data.</p>
             </div>
             <div className="col-xs-12 col-sm-5 col-md-5">
@@ -51,10 +53,8 @@ const SimpleSlider = React.createClass({
             </div>
           </div>
           <div className="row">
-            <div className="col-xs-12 col-sm-7 col-md-7">
-              <Link to="myworks"><button type="button" className="btn btn-default">Back to works...</button></Link>
-            </div>
-            <div className="col-xs-12 col-sm-7 col-md-7">
+            <div className="col-xs-12">
+              <Link to="myworks"><button type="button" className="btn btn-default">Back to works</button></Link><br/><br/>
             </div>
           </div>
           </div>
