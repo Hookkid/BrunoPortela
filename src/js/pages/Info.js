@@ -19,7 +19,7 @@ export default class Info extends React.Component {
                 <p className="spill">Have a look around, send me a message and <b><em>let's build apps together!</em></b></p>
 	        	</div>
 	        	<div className="col-sm-3 col-md-4 col-xs-12">
-	        	<img src="http://placehold.it/300x280" className="myFace img-responsive marginAuto" />
+	        	<img src="img/BP.jpg" className="myFace img-responsive marginAuto" />
 	        	</div>
         	</div>
         	<div className="row">
@@ -32,19 +32,19 @@ export default class Info extends React.Component {
         			<h3>Development</h3>
         			<p className="spill">The reality of today is that a new tool is available every day. We must adapt constantly to remain on top of our game. These are the technologies I am most comfortable with however, I am always eager to learn new useful tools.</p>
         			<ul className="list-group row padding8">
-        				<li className="list-group-item col-xs-4">HTML 5</li>
-        				<li className="list-group-item col-xs-4">CSS3</li>
-        				<li className="list-group-item col-xs-4">SASS/LESS</li>
-        				<li className="list-group-item col-xs-4">Twitter Bootstrap</li>
-        				<li className="list-group-item col-xs-4">JavaScript</li>
-        				<li className="list-group-item col-xs-4">jQuery</li>
-        				<li className="list-group-item col-xs-4">Node.js</li>
-        				<li className="list-group-item col-xs-4">React</li>
-        				<li className="list-group-item col-xs-4">MobX</li>
-        				<li className="list-group-item col-xs-4">Webpack</li>
-        				<li className="list-group-item col-xs-4">Firebase</li>        				        			
-        				<li className="list-group-item col-xs-4">PHP</li>
-        				<li className="list-group-item col-xs-4">C#.NET</li>
+        				<li className="list-item col-xs-4">HTML 5</li>
+        				<li className="list-item col-xs-4">CSS3</li>
+        				<li className="list-item col-xs-4">SASS/LESS</li>
+        				<li className="list-item col-xs-4">Twitter Bootstrap</li>
+        				<li className="list-item col-xs-4">JavaScript</li>
+        				<li className="list-item col-xs-4">jQuery</li>
+        				<li className="list-item col-xs-4">Node.js</li>
+        				<li className="list-item col-xs-4">React</li>
+        				<li className="list-item col-xs-4">MobX</li>
+        				<li className="list-item col-xs-4">Webpack</li>
+        				<li className="list-item col-xs-4">Firebase</li>        				        			
+        				<li className="list-item col-xs-4">PHP</li>
+        				<li className="list-item col-xs-4">C#.NET</li>
         				
         				
 
@@ -56,8 +56,8 @@ export default class Info extends React.Component {
         			<p className="spill">Although I tend to devote more time to development than design, I love creating and adjusting UI as well as pursuing
                     the perfect balance between beautiful design and flawless function. I am well experienced in these softwares:</p>
         			 <ul className="list-group row padding8">
-        				<li className="list-group-item col-xs-6">Adobe Photoshop</li>
-        				<li className="list-group-item col-xs-6">Adobe Illustrator</li>
+        				<li className="list-item col-xs-6">Adobe Photoshop</li>
+        				<li className="list-item col-xs-6">Adobe Illustrator</li>
     				</ul>
         		</div>
        

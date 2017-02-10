@@ -327,3 +327,7 @@ p.spill{
     display: block;
     width: 825px;
 }
+
+.alert, #successMail{
+  display: none;
+}
