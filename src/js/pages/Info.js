@@ -30,7 +30,7 @@ export default class Info extends React.Component {
         	<div className="row">
         		<div className="col-md-6 padding8">
         			<h3>Development</h3>
-        			<p className="spill">The reality of today is that a new tool is available everyday. We must adapt constantly to remain on top of our game. These are the technologies I am most comfortable with. However I am always eager to learn new useful tools.</p>
+        			<p className="spill">The reality of today is that a new tool is available every day. We must adapt constantly to remain on top of our game. These are the technologies I am most comfortable with however, I am always eager to learn new useful tools.</p>
         			<ul className="list-group row padding8">
         				<li className="list-group-item col-xs-4">HTML 5</li>
         				<li className="list-group-item col-xs-4">CSS3</li>
@@ -54,7 +54,7 @@ export default class Info extends React.Component {
         
         			<h3>Design</h3>
         			<p className="spill">Although I tend to devote more time to development than design, I love creating and adjusting UI as well as pursuing
-                    the perfect ballance between beautiful design and flawless function. I am well experienced in these softwares:</p>
+                    the perfect balance between beautiful design and flawless function. I am well experienced in these softwares:</p>
         			 <ul className="list-group row padding8">
         				<li className="list-group-item col-xs-6">Adobe Photoshop</li>
         				<li className="list-group-item col-xs-6">Adobe Illustrator</li>

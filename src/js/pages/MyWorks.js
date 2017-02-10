@@ -4,11 +4,6 @@ import WorkComponent from "../components/Work";
 
 export default class MyWork extends React.Component {
   render() {
-    const { query } = this.props.location;
-    const { params } = this.props;
-    const { Work } = params;
-    const { date, filter } = query;
-
     const Works =  [{
       title: "Document Tracking System",
       clientName: "ESAG Group",
@@ -47,34 +42,19 @@ export default class MyWork extends React.Component {
       imageName: "bomgrado1"}
     ].map((mappedObject, i) => <WorkComponent key={i} id={i} title={mappedObject.title} clientName={mappedObject.clientName} roles={mappedObject.roles} technologies={mappedObject.technologies} imageName={mappedObject.imageName}/> );
 
-
-
-
-    
-    
-      
-    
-   
     return (
 
        <div className="container">
        <div className="row">
-
               <div className="col-md-12">
                 <h2>My recent works</h2>
-                <p className="spill">I have worked all sorts of different projects. These are the most recent ones. Most of them have their source code available at my GitHub.</p>
+                <p className="spill">I have worked all sorts of different projects. These are the most recent ones. Most of them have their source code available <a href='https://github.com/TOYLTH' target='_blank'>at my GitHub</a>.</p>
                 <hr/>
                 <div className="x_panel">
                   <div className="x_content">
                     <div className="row">
-                      <div className="clearfix"></div>
-
-
-                     
+                      <div className="clearfix"></div>                     
                       {Works}
-
-
-
                     </div>
                   </div>
                 </div>

@@ -18,6 +18,10 @@ a:hover{
 	color: #ffffff;
 	font-weight: bold;
 }
+a:active, a:focus{
+  color: #b68c13;
+  font-weight: bold;
+}
 p{
 	font-size:1em;
 	letter-spacing: 1px;

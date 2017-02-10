@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
 import { RouteTransition } from 'react-router-transition';
-import Footer from "../components/layout/Footer";
 import Nav from "../components/layout/Nav";
 
 import presets from "../presets"

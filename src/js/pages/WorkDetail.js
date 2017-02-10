@@ -12,13 +12,13 @@ export default class MyWork extends React.Component {
       images: ["esag1","esag2","esag3"]
     },{
       title: "End-client Dashboard",
-      brief: "The client needed a way to relay live information to the end-customer in an unintrusive manner.",
-      solution: "A dashboad-type application that would present the end-user with crucial information at his convenience. They could choose which notification interested them and how they would be contacted. While the server was sitting in a Microsoft Server, the dashboard app runs in plain jQuery-aided javascript fetching data via a self-made REST API.",
+      brief: "The client needed a way to relay live information to the end-customer in an unobtrusive manner.",
+      solution: "A dashboard-type application that would present the end-user with crucial information at his convenience. They could choose which notification interested them and how they would be contacted. While the server was sitting in a Microsoft Server, the dashboard app runs in plain jQuery-aided javascript fetching data via a self-made REST API.",
       images: ["portal1","portal2"]
     },{
       title: "Spirit Beverage Hotsite",
       brief: "An old school maker of traditional Brazilian spirit 'Cachaça' wants to have a presence online. The first step is to make a Hotsite.",
-      solution: "Slick, responsive design with tones and notation of matureness. A sober color pallet and rugged typesetting.",
+      solution: "Slick, responsive design embracing the colors and spirit of the makers. A sober color pallet and stylish typesetting.",
       images: ["calambau1","calambau2","calambau3"]
     },{
       title: "Spirit Beverage eCommerce",

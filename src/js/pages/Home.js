@@ -9,7 +9,7 @@ export default class Home extends React.Component {
           <div className="col-sm-12 col-md-12 col-xs-12">
             <div className="siteLayer">     
               <h1 className="floatLayer">Hello!</h1>
-              <h2 className="willIam">I am <b>Bruno Portela</b>, a front end developer specialized in super fast, real-time, interactive database applications.</h2>
+              <h2 className="willIam">I am <b>Bruno Portela</b>, a front end developer specialized in super-fast, real-time, interactive database applications.</h2>
               <div className="">
                 <p className="spill">I have been coding professionally for over 15 years <s>all over the world</s> mostly in Australia and Brazil.
                   Some of the biggest companies I worked for would be <a href="http://www.aipc.net.au/" target="_blank">The Australian Institute of Professional Counsellors</a> and the <a href="http://www.thinkpharmacy.com.au/">Think Pharmacy Group</a>.
