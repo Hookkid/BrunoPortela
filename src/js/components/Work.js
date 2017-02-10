@@ -3,7 +3,7 @@ import { IndexLink, Link } from "react-router";
 
 export default class Work extends React.Component {
   render() {
-    const { title, clientName, roles, technologies, imageName } = this.props;
+    const { title, clientName, roles, technologies, imageName, id } = this.props;
 
     return (
        <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 profile_details">
@@ -29,10 +29,10 @@ export default class Work extends React.Component {
             </div>
             <div className="col-xs-12 col-sm-3 emphasis text-right">
             <br/>
-             <IndexLink to="workDetail">
+             <IndexLink to="/WorkDetail" query={{ workId: id }}>
               <button type="button" className="btn btn-primary btn-md" >
 
-                <i className="fa fa-user"> </i> Details...
+                <i className="fa fa-info-circle"></i> Details
               </button>
               </IndexLink>
             </div>

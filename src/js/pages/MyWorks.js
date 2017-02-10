@@ -32,7 +32,7 @@ export default class MyWork extends React.Component {
       clientName: "Cachaças de Calambau",
       roles: "Code / Design / DB",
       technologies: "React / MobX / Firebase",
-      imageName: "calambau2"
+      imageName: "notavailable"
     },{
       title: "Health Food eStore",
       clientName: "Qualidade Nutrição",
@@ -40,12 +40,12 @@ export default class MyWork extends React.Component {
       technologies: "C#.NET / MSSQL / jQuery",
       imageName: "nutricao1"
     },{
-      title: "Simple POV",
-      clientName: "Local Restaurant", 
+      title: "Restaurant POS",
+      clientName: "Bom Grado Restaurante", 
       roles: "Code / Design / DB", 
       technologies: "C# / MSSQL / WinForms", 
-      imageName: "portal2"}
-    ].map((mappedObject, i) => <WorkComponent key={i} title={mappedObject.title} clientName={mappedObject.clientName} roles={mappedObject.roles} technologies={mappedObject.technologies} imageName={mappedObject.imageName}/> );
+      imageName: "bomgrado1"}
+    ].map((mappedObject, i) => <WorkComponent key={i} id={i} title={mappedObject.title} clientName={mappedObject.clientName} roles={mappedObject.roles} technologies={mappedObject.technologies} imageName={mappedObject.imageName}/> );
 
 
 
