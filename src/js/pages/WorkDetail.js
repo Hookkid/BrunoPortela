@@ -5,7 +5,7 @@ import Slider from "react-slick"
 export default class MyWork extends React.Component {
   render() {
 
-       const WorksDetail =  [{
+    const WorksDetail =  [{
       title: "Document Tracking System",
       brief: "Create a system that allows the import/export company to track and manage the thousands of invoices they handle at any given time allowing their staff to update and attach relevant information as the import/export workflow proceeds.",
       solution: "A One Page App that can manipulate, filter or sort invoices and all of their inherited data (that included scanned PDF's) in real time. Relevant information was simultaneously fed to management and the final customer. Database was MSSQL while server side code was C#.NET. Good old javascript and jQuery were the choice for handling UI and fetching data.",
@@ -55,9 +55,8 @@ export default class MyWork extends React.Component {
       currentWork=0
 
     const slideImages = WorksDetail[currentWork].images.map(function(item, i){
-              console.log(item);
-              return <div key={i}><h3><img src={"img/" + item + ".jpg"} className="myFace img-responsive marginAuto" /></h3></div>
-            })
+      return <div key={i}><h3><img src={"img/" + item + ".jpg"} className="myFace img-responsive marginAuto" /></h3></div>
+    })
 
 
     const SimpleSlider = React.createClass({
