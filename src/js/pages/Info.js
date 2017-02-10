@@ -37,6 +37,7 @@ export default class Info extends React.Component {
         				<li className="list-item col-xs-4">SASS/LESS</li>
         				<li className="list-item col-xs-4">Twitter Bootstrap</li>
         				<li className="list-item col-xs-4">JavaScript</li>
+                        <li className="list-item col-xs-4">ES6</li>
         				<li className="list-item col-xs-4">jQuery</li>
         				<li className="list-item col-xs-4">Node.js</li>
         				<li className="list-item col-xs-4">React</li>
