@@ -1,6 +1,6 @@
 {
   "name": "brunoportela",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is my personal/professional web page.",
   "main": "webpack.config.js",
   "dependencies": {

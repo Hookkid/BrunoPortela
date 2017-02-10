@@ -12,11 +12,11 @@ export default class Info extends React.Component {
          <div className="container">
          	<div className="row">
          		<div className="col-sm-9 col-md-8 col-xs-12">
-	        		<h3>So, as I was saying, I spent a lot of years developing online solutions for various businesses. From a legal firm document tracking system to a simple online store
-	        		passing through a full-fledged restaurant management solution and a whole lot more.</h3>
-	        	<p className="spill">These days though I am amazed of what can be done with the powerful combination of <b>React</b>, <b>MobX</b> and <b>Firebase</b>.
-                We are living a brave new world in Web Development and I love to be a part of it.</p>
-                <p className="spill">Have a look around, send me a message and <b><em>let's build apps together!</em></b></p>
+	        		<h3>Time to gloat!</h3>
+                <p className="spill">I'm an easy going, well-manered guy. Well travelled, I speak English, Italian, Spanish and Portuguese fluently. I come from a diverse background of different cultures and tastes and I believe that helps when creating more human interfaces.</p>    
+	        	<p className="spill">For the last few months I have been focusing in improving my skills in cutting-edge tech like <b>React</b> and <b>Firebase</b> - I am amazed of what can be done with this powerful combination.</p>
+                <p className="spill">We are living a brave new world in Web Development and I love to be a part of it. Have a look around, send me a message and <b><em>let's build apps together!</em></b></p>
+                
 	        	</div>
 	        	<div className="col-sm-3 col-md-4 col-xs-12">
 	        	<img src="img/BP.jpg" className="myFace img-responsive marginAuto" />
