@@ -48,7 +48,7 @@ export default class MyWork extends React.Component {
        <div className="row">
               <div className="col-md-12">
                 <h2>My recent works</h2>
-                <p className="spill">I have worked all sorts of different projects. These are the most recent ones. Most of them have their source code available <a href='https://github.com/TOYLTH' target='_blank'>at my GitHub</a>.</p>
+                <p className="spill">I have worked all sorts of different projects. These are the most recent ones. Most of them have their source code available <a href='https://github.com/Hookkid' target='_blank'>at my GitHub</a>.</p>
                 <hr/>
                 <div className="x_panel">
                   <div className="x_content">

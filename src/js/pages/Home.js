@@ -22,7 +22,7 @@ export default class Home extends React.Component {
                 <div className="contactIcons">
                   <div className="row">
 
-                    <a href="https://github.com/TOYLTH" target="_blank"><img src="/img/svg/github-icon.svg" alt="My Git Hub Account" width="42px" className="marginLeft12"/></a>
+                    <a href="https://github.com/Hookkid" target="_blank"><img src="/img/svg/github-icon.svg" alt="My Git Hub Account" width="42px" className="marginLeft12"/></a>
                     <a href="https://www.facebook.com/toylth" target="_blank"><img src="/img/svg/facebook.svg" alt="My Facebook Account" width="42px" className="marginLeft12"/></a>
                     <a href="https://www.linkedin.com/in/bruno-portela-83508a138" target="_blank"><img src="/img/svg/LinkedIn.png" alt="My LinkedIn Account" height="42px" className="marginLeft12" /></a>
                   </div>  
